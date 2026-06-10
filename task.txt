@@ -1,0 +1,10 @@
+Objective: Design a landing page for any product or service.
+Requirements:
+● HTML + CSS
+● Fully responsive design
+Sections:
+● Hero section
+● Features (3–4 items)
+● Footer
+Output:
+● Proper layout on mobile and desktop
