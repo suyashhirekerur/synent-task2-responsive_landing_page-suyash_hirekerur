@@ -1,0 +1,1 @@
+# synent-task2-responsive_landing_page-suyash_hirekerur
