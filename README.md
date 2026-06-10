@@ -25,11 +25,11 @@ This project features a high-fidelity modern dark aesthetic using dark royal blu
 
 ## How to Run Locally
 1. Clone or navigate to the workspace directory.
-2. Launch a local web server (e.g., using Python):
+2. Launch a local web server bound to IPv4:
    ```bash
-   python -m http.server 3000
+   python -m http.server 3000 --bind 127.0.0.1
    ```
 3. Open your web browser and navigate to:
    ```
-   http://localhost:3000
+   http://127.0.0.1:3000
    ```
