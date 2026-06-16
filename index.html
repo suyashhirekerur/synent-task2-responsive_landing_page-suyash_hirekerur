@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aero AI | The Ambient Workspace for Software Builders</title>
-  <meta name="description" content="Experience Aero AI, the next-generation ambient development workspace. Fusing contextual intelligence, fluid design, and collaborative power into a single visual environment.">
-  
+  <meta name="description"
+    content="Experience Aero AI, the next-generation ambient development workspace. Fusing contextual intelligence, fluid design, and collaborative power into a single visual environment.">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <div class="ambient-glow glow-1"></div>
@@ -21,33 +26,35 @@
   <header id="main-header">
     <div class="container header-container">
       <a href="#" class="logo" id="header-logo">
-        <svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 2L2 22L12 17L22 22L12 2Z" fill="url(#logo-grad)" stroke="url(#logo-stroke)" stroke-width="1.5" stroke-linejoin="round"/>
+        <svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L2 22L12 17L22 22L12 2Z" fill="url(#logo-grad)" stroke="url(#logo-stroke)" stroke-width="1.5"
+            stroke-linejoin="round" />
           <defs>
             <linearGradient id="logo-grad" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stop-color="#06b6d4"/>
-              <stop offset="100%" stop-color="#7c3aed"/>
+              <stop offset="0%" stop-color="#06b6d4" />
+              <stop offset="100%" stop-color="#7c3aed" />
             </linearGradient>
             <linearGradient id="logo-stroke" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stop-color="#ffffff"/>
-              <stop offset="100%" stop-color="#7c3aed"/>
+              <stop offset="0%" stop-color="#ffffff" />
+              <stop offset="100%" stop-color="#7c3aed" />
             </linearGradient>
           </defs>
         </svg>
         <span class="logo-text">Aero<span class="logo-highlight">AI</span></span>
       </a>
-      
+
       <nav id="desktop-nav" class="nav-links">
         <a href="#hero" class="nav-link active">Home</a>
         <a href="#features" class="nav-link">Features</a>
         <a href="#showcase" class="nav-link">Showcase</a>
         <a href="#pricing" class="nav-link">Pricing</a>
       </nav>
-      
+
       <div class="header-actions">
         <a href="#signup" class="btn btn-outline btn-sm" id="btn-login">Log In</a>
         <a href="#signup" class="btn btn-gradient btn-sm" id="btn-header-cta">Get Started</a>
-        
+
         <button id="mobile-menu-toggle" aria-label="Toggle Navigation Menu">
           <span class="menu-bar"></span>
           <span class="menu-bar"></span>
@@ -85,13 +92,16 @@
             <span class="gradient-text">for Software Builders</span>
           </h1>
           <p id="hero-subtitle">
-            Bring clarity to complexity. Aero fuses contextual code intelligence, fluid design, and collaborative power into a single visual development environment.
+            Bring clarity to complexity. Aero fuses contextual code intelligence, fluid design, and collaborative power
+            into a single visual development environment.
           </p>
           <div class="hero-actions">
             <a href="#signup" class="btn btn-gradient btn-lg" id="btn-hero-primary">
               Start for Free
-              <svg class="btn-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <svg class="btn-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
               </svg>
             </a>
             <a href="#showcase" class="btn btn-secondary btn-lg" id="btn-hero-secondary">
@@ -110,30 +120,41 @@
                 <span class="dot dot-green"></span>
               </div>
               <div class="mockup-title">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                </svg>
                 aero-workspace / main
               </div>
               <div class="mockup-actions-placeholder"></div>
             </div>
-            
+
             <div class="mockup-body">
               <div class="mockup-sidebar">
                 <div class="sidebar-section">
                   <div class="sidebar-title">Workspace</div>
                   <div class="sidebar-item active">
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                      <polyline points="14 2 14 8 20 8" />
+                    </svg>
                     app.tsx
                   </div>
                   <div class="sidebar-item">
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                      <polyline points="14 2 14 8 20 8" />
+                    </svg>
                     model.py
                   </div>
                   <div class="sidebar-item">
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                      <polyline points="14 2 14 8 20 8" />
+                    </svg>
                     styles.css
                   </div>
                 </div>
-                
+
                 <div class="sidebar-section">
                   <div class="sidebar-title">AI Agents</div>
                   <div class="sidebar-item agent-item">
@@ -146,7 +167,7 @@
                   </div>
                 </div>
               </div>
-              
+
               <div class="mockup-code-area">
                 <div class="code-tabs">
                   <div class="code-tab active">app.tsx</div>
@@ -201,64 +222,74 @@
         <div class="section-header reveal-fade-in">
           <h2 class="section-title">Engineered for the modern developer</h2>
           <p class="section-subtitle">
-            Aero AI replaces disjointed developer tools with a cohesive, beautiful environment that moves at the speed of thought.
+            Aero AI replaces disjointed developer tools with a cohesive, beautiful environment that moves at the speed
+            of thought.
           </p>
         </div>
 
         <div class="features-grid">
           <div class="feature-card reveal-fade-in" id="feat-1">
             <div class="feature-icon-wrapper">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="12 2 2 7 12 12 22 7 12 2"/>
-                <polyline points="2 17 12 22 22 17"/>
-                <polyline points="2 12 12 17 22 12"/>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                <polyline points="2 17 12 22 22 17" />
+                <polyline points="2 12 12 17 22 12" />
               </svg>
             </div>
             <h3 class="feature-title">Ambient Intellect</h3>
             <p class="feature-description">
-              Contextual AI that watches your cursor and environment to propose changes proactively, without you writing a single prompt.
+              Contextual AI that watches your cursor and environment to propose changes proactively, without you writing
+              a single prompt.
             </p>
           </div>
 
           <div class="feature-card reveal-fade-in" id="feat-2">
             <div class="feature-icon-wrapper">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                <circle cx="9" cy="7" r="4"/>
-                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
               </svg>
             </div>
             <h3 class="feature-title">Instant Sync</h3>
             <p class="feature-description">
-              Work alongside team members in real-time with sub-millisecond cursor sync, shared terminals, and visual collaborative canvas.
+              Work alongside team members in real-time with sub-millisecond cursor sync, shared terminals, and visual
+              collaborative canvas.
             </p>
           </div>
 
           <div class="feature-card reveal-fade-in" id="feat-3">
             <div class="feature-icon-wrapper">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
-                <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
-                <line x1="12" y1="22.08" x2="12" y2="12"/>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                <line x1="12" y1="22.08" x2="12" y2="12" />
               </svg>
             </div>
             <h3 class="feature-title">Visual Debugging</h3>
             <p class="feature-description">
-              Visualize code execution flowcharts in real-time. Trace variable mutations, function calls, and control loops interactively.
+              Visualize code execution flowcharts in real-time. Trace variable mutations, function calls, and control
+              loops interactively.
             </p>
           </div>
 
           <div class="feature-card reveal-fade-in" id="feat-4">
             <div class="feature-icon-wrapper">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
-                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
               </svg>
             </div>
             <h3 class="feature-title">Secure Vault</h3>
             <p class="feature-description">
-              Zero-knowledge architecture. Your proprietary code is end-to-end encrypted and never trained on public models without consent.
+              Zero-knowledge architecture. Your proprietary code is end-to-end encrypted and never trained on public
+              models without consent.
             </p>
           </div>
         </div>
@@ -271,19 +302,29 @@
           <div class="showcase-content">
             <h2 class="showcase-title">Interactive Development Canvas</h2>
             <p class="showcase-subtitle">
-              Aero enables you to sketch layouts visually and instantly compiles them into production-ready React or HTML components. Toggle between code and preview seamlessly.
+              Aero enables you to sketch layouts visually and instantly compiles them into production-ready React or
+              HTML components. Toggle between code and preview seamlessly.
             </p>
             <ul class="showcase-list">
               <li>
-                <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
                 Two-way visual layout designer
               </li>
               <li>
-                <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
                 Real-time compilation and hot-reloading
               </li>
               <li>
-                <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
                 Figma integration and layer mapping
               </li>
             </ul>
@@ -328,7 +369,8 @@
             </p>
             <div class="pricing-cta-box" id="signup">
               <a href="#" class="btn btn-gradient btn-lg" id="btn-pricing-cta">Launch Aero Web Free</a>
-              <span class="pricing-fineprint">No credit card required. Free tier includes all ambient editing features.</span>
+              <span class="pricing-fineprint">No credit card required. Free tier includes all ambient editing
+                features.</span>
             </div>
           </div>
         </div>
@@ -340,33 +382,47 @@
     <div class="container footer-grid">
       <div class="footer-col brand-col">
         <a href="#" class="logo footer-logo" id="footer-logo">
-          <svg class="logo-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2L2 22L12 17L22 22L12 2Z" fill="url(#logo-grad-footer)" stroke="url(#logo-stroke-footer)" stroke-width="1.5" stroke-linejoin="round"/>
+          <svg class="logo-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L2 22L12 17L22 22L12 2Z" fill="url(#logo-grad-footer)" stroke="url(#logo-stroke-footer)"
+              stroke-width="1.5" stroke-linejoin="round" />
             <defs>
               <linearGradient id="logo-grad-footer" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
-                <stop offset="0%" stop-color="#06b6d4"/>
-                <stop offset="100%" stop-color="#7c3aed"/>
+                <stop offset="0%" stop-color="#06b6d4" />
+                <stop offset="100%" stop-color="#7c3aed" />
               </linearGradient>
               <linearGradient id="logo-stroke-footer" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
-                <stop offset="0%" stop-color="#ffffff"/>
-                <stop offset="100%" stop-color="#7c3aed"/>
+                <stop offset="0%" stop-color="#ffffff" />
+                <stop offset="100%" stop-color="#7c3aed" />
               </linearGradient>
             </defs>
           </svg>
           <span class="logo-text">Aero<span class="logo-highlight">AI</span></span>
         </a>
         <p class="brand-tagline">
-          Designing the future of development workspaces. Fusing fluid design, lightning-fast sync, and contextual intelligence.
+          Designing the future of development workspaces. Fusing fluid design, lightning-fast sync, and contextual
+          intelligence.
         </p>
         <div class="social-links">
           <a href="#" class="social-link" aria-label="Aero on X (formerly Twitter)" id="social-x">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+            </svg>
           </a>
           <a href="#" class="social-link" aria-label="Aero on GitHub" id="social-github">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
           </a>
           <a href="#" class="social-link" aria-label="Aero Discord Community" id="social-discord">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            </svg>
           </a>
         </div>
       </div>
@@ -396,11 +452,14 @@
         <p class="newsletter-desc">Get the latest news on feature releases and developer aesthetics.</p>
         <form class="newsletter-form" id="newsletter-form" action="#" method="POST">
           <div class="form-group">
-            <input type="email" id="newsletter-email" name="email" placeholder="name@domain.com" required aria-label="Email address for newsletter">
-            <button type="submit" class="btn btn-gradient btn-icon" id="btn-newsletter-submit" aria-label="Subscribe to newsletter">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="5" y1="12" x2="19" y2="12"/>
-                <polyline points="12 5 19 12 12 19"/>
+            <input type="email" id="newsletter-email" name="email" placeholder="name@domain.com" required
+              aria-label="Email address for newsletter">
+            <button type="submit" class="btn btn-gradient btn-icon" id="btn-newsletter-submit"
+              aria-label="Subscribe to newsletter">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
               </svg>
             </button>
           </div>
@@ -422,4 +481,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
